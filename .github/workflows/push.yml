@@ -15,4 +15,4 @@ jobs:
 
       - name: Run Git Clone
         run: |
-          git clone <repository_url>
+          git clone https://github.com/akhilerla/simpleAWS.git
