@@ -16,3 +16,10 @@ jobs:
       - name: Run Git Clone
         run: |
           git clone https://github.com/akhilerla/simpleAWS.git
+          
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Git Clone
+        run: |
+          git clone https://github.com/akhilerla/simpleAWS.git
